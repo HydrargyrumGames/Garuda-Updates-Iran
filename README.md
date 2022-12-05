@@ -38,7 +38,7 @@ sudo pacman -U /home/garuda/Downloads/aria2-1.36.0-1-x86_64.pkg.tar.zst
 
 #### As a final step, we'll be changing the Pacman downlaoder to Aria2c, and in order to do that, we must edit the <code>pacman.conf</code> file located in the <code>/etc</code> folder of our installation!
 
-##Step6: 
+## Step6: 
 #### Open <code>/etc/Pacman.conf</code> (not pamac.conf, that's a whole different thing!), and add the following text just under the <code>[Options]</code> name:
 ```
 XferCommand = /usr/bin/aria2c --allow-overwrite=true --continue=true --file-allocation=none --log-level=error --max-tries=2 --max-connection-per-server=2 --max-file-not-found=5 --min-split-size=5M --no-conf --remote-time=true --summary-interval=60 --timeout=5 --dir=/ --out %o %u
