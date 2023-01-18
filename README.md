@@ -1,4 +1,4 @@
-# The Defenitive Guide to Updating Garuda Linux via Pacman in Iran inspite of the Internet Blockages (No VPNs &amp; 100% Free)
+# The Defenitive Guide to Updating Garuda Linux via Pacman in Iran inspite of the Internet Blockages (No VPNs &amp; 100% Free) [Tested & Still Working in 2023/Jan/18]
 
 ### In this guide, I'll be hopefully helping you (My Iranian Friend) to either Update or to Install Apps/ Packages on your Garuda Linux Installation with noting more than a few edits to a  few files & installation fo 2 packages via their respective .tar.zst files, So Let's Get started! 
 
